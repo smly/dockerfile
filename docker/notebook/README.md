@@ -11,7 +11,7 @@ $ docker run --rm -ti \
   smly/notebook
 ```
 
-## Composed softwares
+## Composed Softwares
 
 * ubuntu 16.04 (Linux 4.4)
 * opencv 3.1.0 + opencv contrib
@@ -23,7 +23,7 @@ $ docker run --rm -ti \
     * python-dateutil>=2
     * pytz>=2011k
     * six>=1.5
-  * jupyter 4.1.0
+  * jupyter
 * (ml)
   * scikit-learn == 0.17.1
   * xgboost == 0.47
