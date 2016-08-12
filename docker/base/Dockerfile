@@ -138,10 +138,6 @@ RUN pip3 install --upgrade pip &&\
 RUN cd /opt/xgboost-0.47/python-package &&\
     python3 setup.py install
 
-# svmlight-loader
-RUN pip3 install \
-    https://github.com/mblondel/svmlight-loader/archive/b4c4ad5.zip
-
 # TODO: LibFFM
 # TODO: GIS related packages
 # * GDAL, gdal-bin, ogr2ogr, GEOS
