@@ -1,4 +1,4 @@
-FROM smly/base
+FROM smly/base0
 MAINTAINER Kohei <i@ho.lc>
 
 # Install dependent packages via apt-get
