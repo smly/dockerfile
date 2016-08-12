@@ -1,0 +1,13 @@
+numexpr
+tables
+
+ml_metrics
+scikit-image
+
+matplotlib
+brewer2mpl
+palettable
+seaborn
+jupyter
+
+descartes

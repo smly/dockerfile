@@ -129,8 +129,10 @@ RUN LIBFM_URL="http://www.libfm.org/libfm-1.42.src.tar.gz" &&\
 
 # python packags
 COPY requirements.txt /opt/requirements.txt
+COPY requirements_part2.txt /opt/requirements_part2.txt
 RUN pip3 install --upgrade pip &&\
-    pip3 install -r /opt/requirements.txt
+    pip3 install -r /opt/requirements.txt &&\
+    pip3 install -r /opt/requirements_part2.txt
 
 # python binding for xgboost
 RUN cd /opt/xgboost-0.47/python-package &&\
