@@ -120,7 +120,7 @@ RUN LIBFM_URL="http://www.libfm.org/libfm-1.42.src.tar.gz" &&\
     LIBFM_FILE="libfm.tgz" &&\
     cd /opt &&\
     wget -q --no-check-certificate $LIBFM_URL -O $LIBFM_FILE &&\
-    echo "6aaa2503aa1e6da7d08dd86bcf0907ee480f223547ca3b3d08c8f404f7f31695  libfm-1.42.src.tar.gz" | sha256s -c - &&\
+    echo "6aaa2503aa1e6da7d08dd86bcf0907ee480f223547ca3b3d08c8f404f7f31695  libfm-1.42.src.tar.gz" | sha256sum -c - &&\
     tar zxf $LIBFM_FILE &&\
     cd libfm-1.42.src &&\
     \
