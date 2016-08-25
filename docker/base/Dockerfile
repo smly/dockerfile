@@ -17,3 +17,9 @@ RUN cd /opt/xgboost-0.47/python-package &&\
 # * GDAL, gdal-bin, ogr2ogr, GEOS
 # * basemap descaretes Shapely
 
+# Google SDK, Amazon
+RUN pip3 install awscli &&\
+    curl https://sdk.cloud.google.com | bash &&\
+    pip3 install psycopg2
+    pip3 install google-api-python-client
+
