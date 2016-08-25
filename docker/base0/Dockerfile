@@ -30,6 +30,8 @@ RUN apt-get -y update &&\
       pkg-config \
       ca-certificates \
       libhdf5-serial-dev \
+      postgresql \
+      curl \
       &&\
     echo ">>>>> packages for building OpenCV3" &&\
     apt-get --no-install-recommends -y install \
