@@ -100,7 +100,7 @@ RUN cd /opt && \
     bash build.sh &&\
     cd python-package &&\
     bash -c "source activate py35 && python setup.py install" &&\
-    ln -s $XGBOOST_PATH/xgboost /usr/local/bin/xgboost
+    ln -s $XGBOOST_PATH/xgboost /opt/conda/bin/xgboost
 
 
 # OpenCV3
@@ -141,7 +141,7 @@ RUN RGF_URL="http://stat.rutgers.edu/home/tzhang/software/rgf/rgf1.2.zip" &&\
     cd rgf1.2 &&\
     \
     make -j4 &&\
-    ln -s /opt/rgf1.2/bin/rgf /usr/local/bin/rgf
+    ln -s /opt/rgf1.2/bin/rgf /opt/conda/bin/rgf
 
 # LibFM
 RUN LIBFM_URL="http://www.libfm.org/libfm-1.42.src.tar.gz" &&\
@@ -153,10 +153,4 @@ RUN LIBFM_URL="http://www.libfm.org/libfm-1.42.src.tar.gz" &&\
     cd libfm-1.42.src &&\
     \
     make &&\
-    ln -s /opt/bin/libFM /usr/local/bin/libFM
-
-
-ENV PATH "$PATH:/usr/local/bin"
-
-
-# xgboost python
+    ln -s /opt/bin/libFM /opt/conda/bin/libFM

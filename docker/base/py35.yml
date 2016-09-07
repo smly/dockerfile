@@ -68,6 +68,7 @@ dependencies:
 - libffi=3.2.1=0
 - libgfortran=3.0.0=1
 - libpng=1.6.22=0
+- libpq=9.5.4=0
 - libsodium=1.0.10=0
 - libtiff=4.0.6=2
 - libxml2=2.9.2=0
@@ -111,6 +112,7 @@ dependencies:
 - pip=8.1.2=py35_0
 - ply=3.8=py35_0
 - psutil=4.3.0=py35_0
+- psycopg2=2.6.2=py35_0
 - ptyprocess=0.5.1=py35_0
 - py=1.4.31=py35_0
 - pyasn1=0.1.9=py35_0
