@@ -1,4 +1,4 @@
-FROM smly/base
+FROM smly/base:0.4
 MAINTAINER Kohei <i@ho.lc>
 
 # tini
