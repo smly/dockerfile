@@ -178,6 +178,8 @@ dependencies:
   - backports.shutil-get-terminal-size==1.0.0
   - dynd==0.7.3.dev1
   - et-xmlfile==1.0.1
+  - google-api-python-client==1.5.3
+  - httplib2==0.9.2
   - ipython-genutils==0.1.0
   - jupyter-client==4.3.0
   - jupyter-console==4.1.1
@@ -185,9 +187,14 @@ dependencies:
   - nb-anacondacloud==1.1.0
   - nb-conda==1.1.0
   - nb-conda-kernels==1.0.3
+  - oauth2client==3.0.0
+  - pyasn1-modules==0.0.8
   - rope-py3k==0.9.4.post1
+  - rsa==3.4.2
   - ruamel.yaml==0.12.12
+  - simplejson==3.8.2
   - sphinx-rtd-theme==0.1.9
   - tables==3.2.2
+  - uritemplate==0.6
 prefix: /opt/conda/envs/py35
 
